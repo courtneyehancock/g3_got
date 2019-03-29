@@ -33,10 +33,8 @@ p,
 	font-family: "HelveticaNeue";
 }
 
-.container {
-	background-image: url("images/index-background.jpg");
-	width: 100%;
-	margin: 0 auto;
+body {
+	background-image: url(images/index-background.jpg) cover;
 }
 
 /* ********** NAVIGATION **********/
@@ -60,7 +58,7 @@ nav ul li {
 	font-size: 2rem;
 }
 
-.notable img {
+/*.notable img {
 	width: 100%;
 	max-width: 20%;
 }
