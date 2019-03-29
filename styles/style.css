@@ -8,6 +8,31 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+@font-face { 
+	font-family: 'Game of Thrones'; 
+	src: url('fonts/game-of-thrones.ttf') format('truetype');
+ }
+
+@font-face{
+	font-family: "HelveticaNeue";
+	src: url('fonts/HelveticaNeue.ttc') format ('truetype');
+}
+
+h1 {
+	font-family: 'Game of Thrones';
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-family: 'Game of Thrones';
+	font-size: 1rem;
+}
+
+p,
+.answer {
+	font-family: "HelveticaNeue";
+}
+
 .container {
 	background-image: url("images/index-background.jpg");
 	width: 100%;
@@ -30,8 +55,13 @@ nav ul li {
 }
 /* ********** END HOME PAGE ************/
 
-/* ********** START STARK PAGE ************/
+/* ********** START STARK PAGE ***********/
 .answer {
 	font-size: 2rem;
+}
+
+.notable img {
+	width: 100%;
+	max-width: 20%;
 }
 /* ********** END STARK PAGE ************/
