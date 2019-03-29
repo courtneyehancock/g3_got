@@ -7,3 +7,31 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+.container {
+	background-image: url("images/index-background.jpg");
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* ********** NAVIGATION **********/
+nav ul li a img {
+	max-width: 10%;
+}
+
+nav ul li {
+	display: inline;
+}
+/* ********** NAVIGATION **********/
+
+/* ********** START HOME PAGE **********/
+.main-logo {
+	max-width: 50%;
+}
+/* ********** END HOME PAGE ************/
+
+/* ********** START STARK PAGE ************/
+.answer {
+	font-size: 2rem;
+}
+/* ********** END STARK PAGE ************/
