@@ -153,10 +153,12 @@ border: solid #ccc .5px;
 }
 .banner img{
 	width: 30%;
+	float:right;
 }
 .notable{
 	max-width: 100%;
 	background: #EBE2CF;
+	padding-top: 5%;
 }
 .notable img{
 	max-width: 50%;
