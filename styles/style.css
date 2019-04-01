@@ -1,3 +1,21 @@
+
+/*.**** Color Palette*****.*/
+
+
+/*.**************************.*/
+
+/*.*********Font Info*****************.*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+****************************************************.*/
+
+
+
+
+
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -28,10 +46,9 @@ h2 {
 	font-family: 'Game of Thrones';
 	font-size: 1rem;
 }
-
 p,
 .answer {
-	font-family: "HelveticaNeue";
+	font-family:'Fira Sans Condensed', sans-serif;
 }
 
 /*New NAV TEST*/
@@ -131,7 +148,15 @@ border: solid #ccc .5px;
 	text-align: center;
 	font-size: .8rem;
 }
-
+.stats{
+	background: #F3C76D;
+}
+.banner img{
+	width: 30%;
+}
+.notable{
+	max-width: 100%;
+}
 
 /*.notable img {
 	width: 100%;
