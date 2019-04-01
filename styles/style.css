@@ -156,6 +156,15 @@ border: solid #ccc .5px;
 }
 .notable{
 	max-width: 100%;
+	background: #EBE2CF;
+}
+.notable img{
+	max-width: 50%;
+}
+.notable figcaption{
+	background: black;
+	color: white;
+	width:45%;
 }
 
 /*.notable img {
