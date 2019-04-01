@@ -51,6 +51,9 @@ nav ul li {
 .main-logo {
 	max-width: 50%;
 }
+#container{
+	background-image: url("images/index-background.jpg");
+}
 /* ********** END HOME PAGE ************/
 
 /* ********** START STARK PAGE ***********/
