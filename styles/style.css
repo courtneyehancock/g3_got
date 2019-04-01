@@ -20,7 +20,8 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 h1 {
 	font-family: 'Game of Thrones';
-	font-size: 2.5rem;
+	font-size: 2rem;
+	padding-left: 2%;
 }
 
 h2 {
@@ -39,6 +40,7 @@ p,
   position: relative;
   background-color:black;
   overflow: hidden;
+	margin-bottom: 5%;
 }
 
 /* Style the links inside the navigation bar */
@@ -93,6 +95,9 @@ font-family: "HelveticaNeue";
 .main-logo {
 	max-width: 50%;
 }
+body{
+	background-color: grey;
+}
 /* ********** END HOME PAGE ************/
 
 
@@ -102,17 +107,29 @@ font-family: "HelveticaNeue";
 
 
 
-/* ********** START STARK PAGE ***********/
+/* ********** START LANNISTER PAGE ***********/
 .answer {
 	font-size: 2rem;
 }
 .summary{
+	padding-top: 10%;
 	background: white;
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
 margin: 0 auto;
 width: 85%;
+border: solid #ccc .5px;
+}
+.summary p{
+	padding:2%;
+	font-size: .7rem;
+}
+.quote{
+	margin-top: 5%;
+	color: white;
+	text-align: center;
+	font-size: .8rem;
 }
 
 
