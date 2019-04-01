@@ -33,8 +33,47 @@ p,
 	font-family: "HelveticaNeue";
 }
 
+/*New NAV TEST*/
 
-/* ********** NAVIGATION **********/
+.topnav {
+  position: relative;
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color:#9D8D7F ;
+}
+
+.topnav a.active {
+  background-color: grey ;
+  color: white;
+}
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/*.******************END NAV NEW*****.*******/
+/* ********** OLD NAVIGATION **********
 nav{
 	background: black;
 }
