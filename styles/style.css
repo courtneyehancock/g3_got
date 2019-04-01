@@ -57,7 +57,7 @@ p,
 }
 
 .topnav a.active {
-  background-color: grey ;
+  background-color:grey;
   color: white;
 }
 .topnav-centered a {
@@ -95,13 +95,78 @@ font-family: "HelveticaNeue";
 }
 /* ********** END HOME PAGE ************/
 
+
+
+
+
+
+
+
 /* ********** START STARK PAGE ***********/
 .answer {
 	font-size: 2rem;
 }
+.summary{
+	background: white;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+margin: 0 auto;
+width: 85%;
+}
+
 
 /*.notable img {
 	width: 100%;
 	max-width: 20%;
 }
 /* ********** END STARK PAGE ************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.***********END MAIN STYLES*****************.*/
+
+/*.***********START MEDIA QUERIES*****************.*/
+/*.***********START 600PX  MEDIA QUERIES*****************.*/
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
