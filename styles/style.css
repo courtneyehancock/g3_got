@@ -33,11 +33,11 @@ p,
 	font-family: "HelveticaNeue";
 }
 
-body {
-	background-image: url(images/index-background.jpg) cover;
-}
 
 /* ********** NAVIGATION **********/
+nav{
+	background: black;
+}
 nav ul li a img {
 	max-width: 10%;
 }
@@ -45,14 +45,14 @@ nav ul li a img {
 nav ul li {
 	display: inline;
 }
+nav ul {
+font-family: "HelveticaNeue";
+}
 /* ********** NAVIGATION **********/
 
 /* ********** START HOME PAGE **********/
 .main-logo {
 	max-width: 50%;
-}
-#container{
-	background-image: url("images/index-background.jpg");
 }
 /* ********** END HOME PAGE ************/
 
