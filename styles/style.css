@@ -178,7 +178,6 @@ display:flex;
 flex-wrap: wrap;
 justify-content: center;
 
-
 }
 .notable figure{
 	width: 40%;
@@ -196,7 +195,6 @@ max-width:100%;
 	text-align: center;
 	padding:3%;
 	margin: 0 auto;
-
 	border-radius: 5px;
 }
 .notable-text{
@@ -244,6 +242,10 @@ max-width:100%;
 /*.***********END MAIN STYLES*****************.*/
 
 /*.***********START MEDIA QUERIES*****************.*/
+
+
+
+
 /*.***********START 600PX  MEDIA QUERIES*****************.*/
 @media screen and (max-width: 600px) {
   .topnav a, .topnav-right {
