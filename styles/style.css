@@ -67,6 +67,7 @@ p,
   background-color:black;
   overflow: hidden;
 	margin-bottom: 5%;
+	display: none;
 }
 
 /* Style the links inside the navigation bar */
@@ -202,6 +203,73 @@ max-width:100%;
 	padding-bottom: 3%;
 }
 
+
+
+/*.****HAMBURGER MENU******.*/
+.hamburger{
+	background:none;
+	position:absolute;
+	top:2px;
+	right:0 ;
+
+	line-height:45px;
+	padding:5px 15px 0px 15px;
+	color:#9D8D7F;
+	border:0;
+	font-size:1.4em;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	z-index:10000000000000;
+}
+.cross{
+	background:none;
+	position:absolute;
+	top:0px;
+	right:0;
+	padding:7px 15px 0px 15px;
+	color:#9D8D7F;
+	border:0;
+	font-size:3em;
+	line-height:65px;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#000;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#000 1px solid; font-size: 1rem;}
+.menu li:hover{display: block;    background:white; padding:15px 0 15px 0; border-bottom:#000 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:white;}
+.menu ul li a:hover {  color: white; text-decoration:none;}
+.menu a{text-decoration:none; color:white;}
+.menu a:hover{text-decoration:none; color:white;}
+/*.*************HAMBURGER ENDS**************.*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*.notable img {
 	width: 100%;
 	max-width: 20%;
@@ -222,7 +290,7 @@ max-width:100%;
 
 
 
-
+/* ********** MEDIA QUERIES ************/
 
 
 
