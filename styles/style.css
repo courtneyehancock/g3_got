@@ -622,35 +622,12 @@ max-width:100%;
 
 
 
-/*.notable img {
-	width: 100%;
-	max-width: 20%;
-}
-/* ********** END STARK PAGE ************/
-
-#crown {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -25px;
-  margin-left: -50px;
-  width: 100px;
-  height: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ********** MEDIA QUERIES ************/
+
+
+/* ********** 400px MEDIA QUERIES ************/
+
+
 
 
 
