@@ -64,7 +64,7 @@ p,
 
 .topnav {
   position: relative;
-  background-color:black;
+  background-color: #000;
   overflow: hidden;
 	margin-bottom: 5%;
 	display: none;
