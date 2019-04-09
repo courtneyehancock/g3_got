@@ -1,20 +1,6 @@
 
+
 /*.**** Color Palette*****.*/
-
-
-/*.**************************.*/
-
-/*.*********Font Info*****************.*
-font-family: 'Fira Sans', sans-serif;
-font-family: 'Fira Sans Condensed', sans-serif;
-font-family: 'Fira Sans Extra Condensed', sans-serif;
-****************************************************.*/
-
-
-
-
-
-
 
 * {
 	margin: 0;
@@ -25,6 +11,14 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+/*.**************************.*/
+
+/*.*********Font Info*****************.*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+****************************************************.*/
+
 
 @font-face { 
 	font-family: 'Game of Thrones'; 
@@ -62,49 +56,23 @@ p,
 }
 /*New NAV TEST*/
 
-.topnav {
-  position: relative;
+.container {
+	position: relative;
   background-color: #000;
   overflow: hidden;
 	margin-bottom: 5%;
 	display: none;
 }
 
+.nav-image img {
+	display: none;
+}
+
 /* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: white;
-  color:#9D8D7F ;
-}
-
-.topnav a.active {
-  background-color:grey;
-  color: white;
-}
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.topnav-right {
-  float: right;
-}
 body {
   background-image: url("../images/index-background.jpg");
   background-size: cover;
 }
-
 
 /*.******************END NAV NEW*****.*******/
 /* ********** OLD NAVIGATION **********
@@ -173,7 +141,7 @@ h3 {
 
 
 /*==============================================================================
-  STUPID  FLIP CLOCK
+  STUPID FLIP CLOCK
 ==============================================================================*/
 .flipclock {
 }
@@ -449,9 +417,9 @@ body.play ul section.active .down .shadow {
   -moz-box-shadow:    3px 3px 5px 6px rgba(0, 0, 0, .5);
   -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, .5);
   box-shadow:         3px 3px 5px 6px rgba(0, 0, 0, .5);
-margin: 0 auto;
-width: 85%;
-border: solid #ccc .5px;
+	margin: 15% auto;
+	width: 85%;
+	border: solid #ccc .5px;
 }
 .summary p{
 	padding: 4%;
@@ -469,26 +437,31 @@ border: solid #ccc .5px;
 }
 .banner img{
 	width: 35%;
-	float:right;
+	float: right;
 	margin-top: -75px;
 	padding-right: 3%;
+	position: relative;
+	max-height: 624px;
+	max-width: 250px;
+	padding-left: 2%;
 }
 
 
 .notable{
 	background: #EBE2CF;
 	padding-top: 5%;
-display:flex;
-flex-wrap: wrap;
-justify-content: center;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
 
 }
 .notable figure{
 	width: 40%;
+	max-width: 150px;
 
 }
 .notable img{
-max-width:100%;
+	max-width:100%;
 
 }
 
@@ -503,7 +476,9 @@ max-width:100%;
 }
 .notable-text{
 	text-align: center;
-	padding-bottom: 3%;
+	padding-bottom: 1%;
+	background-color: #EBE2CF;
+	padding-top: 5%;
 }
 
 
@@ -632,16 +607,70 @@ max-width:100%;
 
 
 /*.********************MEDIA QUERY 630px***************.*/
-@media(min-width:630px){
+@media (min-width: 375px) {
+	.summary p {
+		font-size: 1rem;
+	}
+
+	.typewriter h1 {
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 500px) {
+	.typewriter h1 {
+		font-size: 1.7rem;
+	}
+
+	.summary p {
+		padding: 2% 6% 0 3%;
+	}
+
+	.summary {
+		padding-bottom: 10%;
+	}
+}
+
+@media (min-width: 749px) {
+	.notable,
+	.notable-text {
+		max-width: 749px;
+		margin: 0 auto;
+	}
+
+	.typewriter h1 {
+		font-size: 2.2rem;
+	}
+
+
+@media (min-width: 850px) {
+	.summary {
+		max-width: 717px;
+		padding-bottom: 20%;
+	}
+}
+
+@media(min-width: 909px){
 	.menu, .hamburger, .cross{
 		display: none;
 	}
-	.topnav{
-display: block;
+
+	.container {
+		display: inline;
 	}
 
+	.nav-image img{
+		display: block;
+		width: 15%;
+		margin: -1% 40% 0 40%;
+		z-index: 1;
 	}
 
+	.summary {
+		margin: 5% auto;
+		padding-bottom: 20%;
+	}
+}
 
 
 
@@ -663,16 +692,3 @@ display: block;
 
 
 /*.***********START 600PX  MEDIA QUERIES*****************.*/
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: none;
-    display: block;
-  }
-
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
-}
