@@ -22,22 +22,17 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 
 @font-face { 
 	font-family: 'Game of Thrones'; 
-	src: url('fonts/game-of-thrones.ttf') format('truetype');
- }
-
-@font-face{
-	font-family: "HelveticaNeue";
-	src: url('fonts/HelveticaNeue.ttc') format ('truetype');
+	src: url('fonts/game-of-thrones.ttf');
 }
 
 h1 {
-	font-family: 'Game of Thrones';
+	font-family: 'Game of Thrones', 'Cinzel Decorative', cursive;
 	font-size: 1rem;
 	padding-left: 4%;
 }
 
 h2 {
-	font-family: 'Game of Thrones';
+	font-family: 'Game of Thrones', 'Cinzel Decorative', cursive;
 	font-size: 1rem;
 
 }
@@ -93,10 +88,18 @@ font-family: "HelveticaNeue";
 
 /* ********** START HOME PAGE **********/
 .main-logo {
-	max-width: 100%;
+	/*max-width: 50%;
 	position: relative;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
+	/*margin: 0 auto;
+	justify-content: center;*/
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 80px;
+  width: 50%;
 }
+
 
 /* ********** END HOME PAGE ************/
 
@@ -108,11 +111,13 @@ h3 {
   font-weight: bold;
   text-shadow: 0 0 2px #fff;
 	color: white;
-	font-family: 'Game of Thrones'
+	font-family: 'Game of Thrones', 'Cinzel Decorative', cursive;
 }
+
 .clearfix {
     clear: both;
 }
+
 #page {
     margin: 0 auto;
     width: 600px;
@@ -174,9 +179,9 @@ ul.flip {
 }
 .hours li{
 	display: inline;
-	padding:6%;
+	padding: 3%;
 	color: white;
-	font-family: 'Game of Thrones';
+	font-family: 'Game of Thrones', 'Cinzel Decorative', cursive;;
 	font-size: .6rem;
 }
 
@@ -326,14 +331,14 @@ body.play ul section.ready .up {
 
 body.play ul section.ready .up .shadow {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, 1)));
-    background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     -webkit-animation: show .5s linear both;
 }
 
 body.play ul section.active .up .shadow {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, 1)));
-    background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
     -webkit-animation: hide .5s .3s linear both;
 }
@@ -342,14 +347,14 @@ body.play ul section.active .up .shadow {
 
 body.play ul section.ready .down .shadow {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, .1)));
-    background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     -webkit-animation: show .5s linear both;
 }
 
 body.play ul section.active .down .shadow {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, .1)));
-    background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
     -webkit-animation: hide .5s .3s linear both;
 }
@@ -382,7 +387,7 @@ body.play ul section.active .down .shadow {
 /* ********** Test animation PAGE ***********/
 .typewriter h1 {
   color: black;
-  font-family: "Game of Thrones";
+  font-family: "Game of Thrones", 'Cinzel Decorative', cursive;;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #fff; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -615,7 +620,10 @@ body.play ul section.active .down .shadow {
 	.typewriter h1 {
 		font-size: 1.2rem;
 	}
+
 }
+
+
 
 @media (min-width: 500px) {
 	.typewriter h1 {
@@ -650,7 +658,7 @@ body.play ul section.active .down .shadow {
 	}
 }
 
-@media(min-width: 909px){
+@media(min-width: 909px) {
 	.menu, .hamburger, .cross{
 		display: none;
 	}
@@ -671,24 +679,4 @@ body.play ul section.active .down .shadow {
 		padding-bottom: 20%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*.***********END MAIN STYLES*****************.*/
-
-/*.***********START MEDIA QUERIES*****************.*/
-
-
-
-
-/*.***********START 600PX  MEDIA QUERIES*****************.*/
